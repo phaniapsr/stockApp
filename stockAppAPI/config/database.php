@@ -49,9 +49,9 @@ return [
         'testing' => [
             'driver'    => 'mysql',
             'host'      => env('DB_TEST_HOST', 'localhost'),
-            'database'  => env('DB_TEST_DATABASE', 'restapi_test'),
-            'username'  => env('DB_TEST_USERNAME', ''),
-            'password'  => env('DB_TEST_PASSWORD', ''),
+            'database'  => env('DB_TEST_DATABASE', 'stockapp_test'),
+            'username'  => env('DB_TEST_USERNAME', 'root'),
+            'password'  => env('DB_TEST_PASSWORD', '123456'),
             'charset'   => env('DB_CHARSET', 'utf8'),
             'collation' => env('DB_COLLATION', 'utf8_unicode_ci'),
             'prefix'    => env('DB_PREFIX', ''),

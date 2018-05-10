@@ -59,6 +59,9 @@ $app->configure('mail');
 // load database configurations
 $app->configure('database');
 
+// load auth configurations
+$app->configure('auth');
+
 /*
 |--------------------------------------------------------------------------
 | Register Middleware

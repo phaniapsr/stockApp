@@ -1,0 +1,15 @@
+stockAppAPI/Homestead.json
+stockAppAPI/Homestead.yaml
+stockAppAPI/.env
+stockAppAPI/.vagrant/
+stockAppAPI/vendor/
+stockAppAPI/.idea/
+stockAppAPI/storage/*.key
+stockAppAPI/composer.lock
+.idea/
+stockAppAPI/.env.example
+stockAppClient/.angular-cli.json
+stockAppClient/.vscode/
+stockAppClient/node_modules/*
+stockAppClient/package-lock.json
+stockAppAPI/composer.lock
