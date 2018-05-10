@@ -10,13 +10,13 @@ namespace app\Models;
 use Illuminate\Database\Eloquent\Model;
 
 
-class WatchList extends Model{
+class Stocks extends Model{
 	/**
 	 * The database table used by the model.
 	 *
 	 * @var string
 	 */
-	protected $table = 'watchlist';
+	protected $table = 'stocks';
 
 	/**
 	 * The attributes that are mass assignable.

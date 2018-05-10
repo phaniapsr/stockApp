@@ -41,7 +41,7 @@ class AccessTokenController extends Controller
 
         //Set default scope with full access
         if (!isset($inputs['scope']) || empty($inputs['scope'])) {
-            $inputs['scope'] = "*";
+            $inputs['scope'] = "users";
         }
 
         $tokenRequest = $request->create('/oauth/token', 'post', $inputs);
